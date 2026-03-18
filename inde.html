@@ -1,19 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nhi Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Nguyen Tuyet Nhi</h1>
-  <p>Fresher Fullstack Developer</p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Kindergarten Management System</li>
-    <li>AI Task Management App</li>
-  </ul>
+<body class="bg-gray-900 text-white font-sans">
 
-  <h2>Contact</h2>
-  <p>Email: yourmail@gmail.com</p>
+  <!-- HEADER -->
+  <header class="p-6 flex justify-between items-center border-b border-gray-700">
+    <h1 class="text-xl font-bold">Nguyen Tuyet Nhi</h1>
+    <a href="mailto:yourmail@gmail.com" class="text-blue-400">Contact</a>
+  </header>
+
+  <!-- HERO -->
+  <section class="text-center py-16 px-6">
+    <h2 class="text-4xl font-bold mb-4">Fresher Fullstack Developer</h2>
+    <p class="text-gray-400 max-w-xl mx-auto">
+      Building scalable web applications with React, Node.js and AI-powered workflows.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="px-6 py-10 max-w-5xl mx-auto">
+    <h3 class="text-2xl font-semibold mb-6">Projects</h3>
+
+    <div class="grid md:grid-cols-2 gap-6">
+
+      <!-- Project 1 -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+        <h4 class="text-xl font-bold mb-2">Kindergarten Management System</h4>
+        <p class="text-gray-400 mb-3">
+          Fullstack system supporting ~1000 users with real-time communication.
+        </p>
+        <p class="text-sm text-gray-500">React • Node.js • MongoDB • Docker • Azure</p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+        <h4 class="text-xl font-bold mb-2">AI Task Management App</h4>
+        <p class="text-gray-400 mb-3">
+          Task management system with JWT auth and optimized API performance.
+        </p>
+        <p class="text-sm text-gray-500">React • Express • MongoDB • AI Tools</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="px-6 py-10 bg-gray-800">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-6">Skills</h3>
+
+      <div class="flex flex-wrap gap-3">
+        <span class="bg-gray-700 px-4 py-2 rounded-full">React</span>
+        <span class="bg-gray-700 px-4 py-2 rounded-full">Node.js</span>
+        <span class="bg-gray-700 px-4 py-2 rounded-full">Java</span>
+        <span class="bg-gray-700 px-4 py-2 rounded-full">Spring Boot</span>
+        <span class="bg-gray-700 px-4 py-2 rounded-full">MongoDB</span>
+        <span class="bg-gray-700 px-4 py-2 rounded-full">Docker</span>
+        <span class="bg-gray-700 px-4 py-2 rounded-full">AWS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    © 2026 Nguyen Tuyet Nhi
+  </footer>
+
 </body>
 </html>
