@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nhi Nguyen | Scrum Master & Fullstack Developer</title>
+  <title>Nhi Nguyen | Junior Scrum Master</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -14,12 +14,6 @@
     .gradient-bg { background: linear-gradient(135deg, #161b22 0%, #0d1117 100%); }
     .progress-bar { height: 6px; background: #21262d; border-radius: 3px; overflow: hidden; }
     .progress-fill { height: 100%; background: linear-gradient(90deg, #00d2ff 0%, #00E5BF 100%); }
-    /* Vertical Timeline Style */
-    .timeline::after { content: ''; position: absolute; width: 2px; background-color: #21262d; top: 0; bottom: 0; left: 0; }
-    .timeline-item::after { content: ''; position: absolute; width: 14px; height: 14px; left: -6px; background-color: #00E5BF; border: 3px solid #0b0f14; border-radius: 50%; top: 4px; z-index: 1; transition: all 0.3s ease; }
-    .timeline-item:hover::after { box-shadow: 0 0 10px #00E5BF; }
-    /* Tech Tag Style */
-    .tech-tag { text-xs bg-[#00E5BF]/10 text-[#00E5BF] border border-[#00E5BF]/20 px-2.5 py-1.5 rounded-full; }
   </style>
 </head>
 
@@ -33,197 +27,138 @@
         <a href="#skills" class="hover:text-white transition">Skills</a>
         <a href="#projects" class="hover:text-white transition">Projects</a>
         <a href="#experience" class="hover:text-white transition">Experience</a>
-        <a href="#" class="bg-[#00E5BF] text-black px-4 py-1.5 rounded font-bold hover:bg-[#00c2a2] transition">Resume</a>
       </div>
     </div>
   </nav>
 
-  <section class="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-16 items-center">
+  <section id="about" class="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-16 items-center">
     <div>
-      <h2 class="text-6xl font-extrabold text-white mb-6 leading-tight tracking-tighter">
-        Engineering Teams. <br>Optimizing <span class="neon-text">Flows.</span>
+      <h2 class="text-5xl font-extrabold text-white mb-6 leading-tight tracking-tight">
+        Empowering Teams.<br>Delivering <span class="neon-text">Value.</span>
       </h2>
       <p class="text-lg text-gray-400 mb-8 leading-relaxed">
-        Chào, mình là <span class="text-white font-semibold">Nhi</span>. Một **Fullstack Developer** đang chuyển mình mạnh mẽ sang vai trò **Scrum Master**. Với nền tảng kỹ thuật vững chắc và kinh nghiệm Agile, mình giúp đội ngũ tập trung vào việc giao giá trị thực, một Sprint tại một thời điểm.
+        Hi, I'm <span class="text-white font-semibold">Nhi Nguyen</span>, a Fullstack Developer transitioning into a <span class="text-white font-semibold">Junior Scrum Master</span>. With a strong technical foundation and hands-on Agile experience, I support teams in delivering real value through effective collaboration, continuous improvement, and well-structured Sprint execution.
       </p>
       <div class="flex gap-4">
-        <a href="#skills" class="border border-[#00E5BF] text-[#00E5BF] px-7 py-3 rounded-lg font-bold hover:bg-[#00E5BF]/10 transition">Xem Skills</a>
-        <a href="mailto:tnhi.dev@gmail.com" class="bg-gray-800 text-white px-7 py-3 rounded-lg font-bold hover:bg-gray-700 transition">Get in Touch</a>
+        <a href="#skills" class="border border-[#00E5BF] text-[#00E5BF] px-6 py-3 rounded-lg font-semibold hover:bg-[#00E5BF]/10 transition">View Skills</a>
+        <a href="mailto:tnhi.dev@gmail.com" class="bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition">Contact Me</a>
       </div>
     </div>
+
     <div class="gradient-bg p-8 rounded-2xl neon-border">
-      <div class="flex items-center gap-6 mb-8">
-        <img src="https://via.placeholder.com/100" alt="Nhi Nguyen" class="w-20 h-20 rounded-full border-2 border-[#00E5BF]" /> 
-        <div>
-          <h1 class="text-2xl font-bold text-white">Nhi Tuyet Nguyen</h1>
-          <p class="text-gray-400 text-sm">Ngu Hanh Son, Da Nang, Vietnam</p>
-          <p class="text-[#00E5BF] text-sm mt-1">tnhi.dev@gmail.com</p>
-        </div>
+      <div class="mb-6">
+        <h1 class="text-2xl font-bold text-white">Nhi Tuyet Nguyen</h1>
+        <p class="text-gray-400 text-sm">Da Nang, Vietnam</p>
+        <p class="text-[#00E5BF] text-sm mt-1">tnhi.dev@gmail.com</p>
       </div>
+
       <div class="grid grid-cols-2 gap-4">
-        <div class="bg-gray-800 p-6 rounded-xl text-center">
-          <div class="text-3xl font-bold text-white">1+</div>
-          <div class="text-xs text-gray-500 uppercase tracking-widest mt-1">Năm kinh nghiệm</div>
+        <div class="bg-gray-800 p-5 rounded-xl text-center">
+          <div class="text-2xl font-bold text-white">1+</div>
+          <div class="text-xs text-gray-500 uppercase mt-1">Years Experience</div>
         </div>
-        <div class="bg-gray-800 p-6 rounded-xl text-center">
-          <div class="text-3xl font-bold text-white">5+</div>
-          <div class="text-xs text-gray-500 uppercase tracking-widest mt-1">Chứng chỉ & Ngôn ngữ</div>
+        <div class="bg-gray-800 p-5 rounded-xl text-center">
+          <div class="text-2xl font-bold text-white">Agile</div>
+          <div class="text-xs text-gray-500 uppercase mt-1">Focused Mindset</div>
         </div>
-      </div>
-      <div class="flex gap-4 mt-8 justify-center">
-        <a href="#" class="text-gray-500 hover:text-white transition">LinkedIn</a>
-        <span class="text-gray-700">/</span>
-        <a href="#" class="text-gray-500 hover:text-white transition">GitHub</a>
       </div>
     </div>
   </section>
 
   <section id="skills" class="max-w-6xl mx-auto px-6 py-20">
-    <h3 class="text-3xl font-bold text-white mb-14 flex items-center gap-3">
-      <span class="w-8 h-[2px] bg-[#00E5BF]"></span> Technical Expertise
-    </h3>
+    <h3 class="text-3xl font-bold text-white mb-12">Core Skills</h3>
     <div class="grid md:grid-cols-3 gap-8">
-      <div class="gradient-bg p-8 rounded-2xl border border-gray-800 neon-border">
-        <h4 class="text-[#00E5BF] text-xl font-bold mb-8 flex items-center gap-2">
-          <span>&lt;/&gt;</span> Languages & Dev
-        </h4>
-        <div class="space-y-6">
-          <div>
-            <div class="flex justify-between text-xs mb-1"><span>JavaScript / TypeScript</span><span>90%</span></div>
-            <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
-          </div>
-          <div>
-            <div class="flex justify-between text-xs mb-1"><span>Node.js / React</span><span>85%</span></div>
-            <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
-          </div>
-          <div>
-            <div class="flex justify-between text-xs mb-1"><span>C# (Learning)</span><span>60%</span></div>
-            <div class="progress-bar"><div class="progress-fill" style="width: 60%"></div></div>
-          </div>
-        </div>
+
+      <div class="gradient-bg p-6 rounded-xl neon-border">
+        <h4 class="text-[#00E5BF] font-semibold mb-4">Agile & Scrum</h4>
+        <ul class="text-sm text-gray-400 space-y-2">
+          <li>• Scrum Ceremonies Facilitation</li>
+          <li>• Sprint Planning & Retrospectives</li>
+          <li>• Backlog Refinement</li>
+          <li>• Removing Impediments</li>
+        </ul>
       </div>
 
-      <div class="gradient-bg p-8 rounded-2xl border border-gray-800 neon-border">
-        <h4 class="text-[#00E5BF] text-xl font-bold mb-8 flex items-center gap-2">
-          <span>⚙️</span> Agile & Testing
-        </h4>
-        <div class="space-y-6">
-          <div>
-            <div class="flex justify-between text-xs mb-1"><span>Scrum Ceremonies</span><span>90%</span></div>
-            <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
-          </div>
-          <div>
-            <div class="flex justify-between text-xs mb-1"><span>Jira / Trello Management</span><span>85%</span></div>
-            <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
-          </div>
-          <div>
-            <div class="flex justify-between text-xs mb-1"><span>Backlog Grooming</span><span>80%</span></div>
-            <div class="progress-bar"><div class="progress-fill" style="width: 80%"></div></div>
-          </div>
-        </div>
+      <div class="gradient-bg p-6 rounded-xl neon-border">
+        <h4 class="text-[#00E5BF] font-semibold mb-4">Tools</h4>
+        <ul class="text-sm text-gray-400 space-y-2">
+          <li>• Jira / Trello</li>
+          <li>• GitHub</li>
+          <li>• Confluence</li>
+        </ul>
       </div>
 
-      <div class="gradient-bg p-8 rounded-2xl border border-gray-800 neon-border">
-        <h4 class="text-[#00E5BF] text-xl font-bold mb-8 flex items-center gap-2">
-          <span>☁️</span> Cloud & DevOps
-        </h4>
-        <div class="space-y-6">
-          <div>
-            <div class="flex justify-between text-xs mb-1"><span>GitHub Actions (CI/CD)</span><span>75%</span></div>
-            <div class="progress-bar"><div class="progress-fill" style="width: 75%"></div></div>
-          </div>
-          <div>
-            <div class="flex justify-between text-xs mb-1"><span>Docker Deployment</span><span>70%</span></div>
-            <div class="progress-bar"><div class="progress-fill" style="width: 70%"></div></div>
-          </div>
-        </div>
+      <div class="gradient-bg p-6 rounded-xl neon-border">
+        <h4 class="text-[#00E5BF] font-semibold mb-4">Technical Background</h4>
+        <ul class="text-sm text-gray-400 space-y-2">
+          <li>• JavaScript / TypeScript</li>
+          <li>• React / Node.js</li>
+          <li>• REST APIs</li>
+        </ul>
       </div>
+
     </div>
   </section>
 
   <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
-    <h3 class="text-3xl font-bold text-white mb-14 flex items-center gap-3">
-      <span class="w-8 h-[2px] bg-[#00E5BF]"></span> Project Portfolio
-    </h3>
-    <div class="grid md:grid-cols-2 gap-10">
-      <div class="gradient-bg p-8 rounded-2xl border border-gray-800 neon-border">
-        <div class="flex justify-between items-start mb-5 gap-4">
-          <h4 class="text-xl font-bold text-white">Kindergarten Management System</h4>
-          <span class="text-[10px] bg-gray-800 text-gray-300 border border-gray-700 px-3 py-1.5 rounded-full whitespace-nowrap">Developer</span>
-        </div>
-        <p class="text-gray-400 text-sm mb-7">Hệ thống quản lý mầm non toàn diện, hỗ trợ 1000+ người dùng với tính năng streaming camera thực tế.</p>
-        <div class="flex flex-wrap gap-2.5">
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">Node.js</span>
-          <span class="tech-tag">MongoDB</span>
-          <span class="tech-tag">Azure VPS</span>
-        </div>
+    <h3 class="text-3xl font-bold text-white mb-12">Projects</h3>
+
+    <div class="space-y-8">
+
+      <div class="gradient-bg p-6 rounded-xl neon-border">
+        <h4 class="text-lg font-semibold text-white">AI Task Management Application</h4>
+        <p class="text-gray-400 text-sm mt-2">
+          Facilitated Agile processes for a team building an AI-powered task management system. Supported Sprint planning, daily stand-ups, and continuous improvement practices to enhance team productivity.
+        </p>
       </div>
 
-      <div class="gradient-bg p-8 rounded-2xl border border-gray-800 neon-border">
-        <div class="flex justify-between items-start mb-5 gap-4">
-          <h4 class="text-xl font-bold text-white">AI Task Management Web App</h4>
-          <span class="text-[10px] bg-[#00E5BF]/10 text-[#00E5BF] border border-[#00E5BF]/20 px-3 py-1.5 rounded-full whitespace-nowrap">Agile Facilitator</span>
-        </div>
-        <p class="text-gray-400 text-sm mb-7">Ứng dụng quản lý công việc tích hợp AI Copilot để tối ưu hóa quy trình Sprint cho đội ngũ phát triển.</p>
-        <div class="flex flex-wrap gap-2.5">
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">Express</span>
-          <span class="tech-tag">Agile Facilitation</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="experience" class="max-w-6xl mx-auto px-6 py-20 bg-gray-800/20 rounded-3xl">
-    <div class="grid md:grid-cols-2 gap-16">
-      
-      <div>
-        <h3 class="text-3xl font-bold text-white mb-12 flex items-center gap-3">
-          <span class="w-8 h-[2px] bg-[#00E5BF]"></span> Experience
-        </h3>
-        <div class="timeline relative pl-6 space-y-12">
-          
-          <div class="timeline-item relative">
-            <div class="text-xs text-[#00E5BF] font-mono tracking-widest">05/2024 - PRESENT</div>
-            <h4 class="text-lg font-bold text-white mt-1">Fullstack Developer</h4>
-            <p class="text-gray-500 text-sm">FPT Software - Da Nang</p>
-            <p class="text-gray-400 text-sm mt-3 leading-relaxed">Điều phối Daily Stand-ups, hỗ trợ Sprint Planning và gỡ blocks cho technical team.</p>
-          </div>
-
-          <div class="timeline-item relative">
-            <div class="text-xs text-gray-500 font-mono tracking-widest">07/2023 - 10/2023</div>
-            <h4 class="text-lg font-bold text-white mt-1">Business Analyst</h4>
-            <p class="text-gray-500 text-sm">Danang University Software Center</p>
-            <p class="text-gray-400 text-sm mt-3 leading-relaxed">Cầu nối giao tiếp giữa technical và non-technical teams.</p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <h3 class="text-3xl font-bold text-white mb-12 flex items-center gap-3">
-          <span class="w-8 h-[2px] bg-[#00E5BF]"></span> Education & Languages
-        </h3>
-        <div class="space-y-10">
-          <div class="gradient-bg p-6 rounded-xl border border-gray-800">
-            <div class="text-xs text-[#00E5BF] font-mono tracking-widest">2022 - 2026</div>
-            <h4 class="text-lg font-bold text-white mt-1">Bachelor of Information Technology</h4>
-            <p class="text-gray-500 text-sm">University of Science and Technology - Da Nang</p>
-            <p class="text-gray-400 text-sm mt-2">GPA: 7.8+ / 10 • Major: Software Engineering</p>
-          </div>
-          <div class="gradient-bg p-6 rounded-xl border border-gray-800 flex gap-6 items-center">
-            <div><div class="text-lg font-bold text-white">IELTS 6.5</div><p class="text-gray-500 text-sm">(Upper-Intermediate)</p></div>
-            <div class="w-[1px] h-10 bg-gray-800"></div>
-            <div><div class="text-lg font-bold text-white">Japanese</div><p class="text-gray-500 text-sm">Pre N3 (Learning)</p></div>
-          </div>
-        </div>
+      <div class="gradient-bg p-6 rounded-xl neon-border">
+        <h4 class="text-lg font-semibold text-white">Kindergarten Management System</h4>
+        <p class="text-gray-400 text-sm mt-2">
+          Contributed as a Fullstack Developer to build a scalable system supporting over 1000 users, including real-time monitoring features.
+        </p>
       </div>
 
     </div>
   </section>
 
-  <footer class="border-t border-gray-800 mt-20 py-16 text-center">
-    <p class="text-xs text-gray-600 uppercase tracking-widest">© 2026 Da Nang, Vietnam</p>
+  <section id="experience" class="max-w-6xl mx-auto px-6 py-20">
+    <h3 class="text-3xl font-bold text-white mb-12">Experience</h3>
+
+    <div class="space-y-6">
+
+      <div>
+        <h4 class="text-white font-semibold">Fullstack Developer (Agile Team Support)</h4>
+        <p class="text-gray-500 text-sm">FPT Software | 2024 - Present</p>
+        <p class="text-gray-400 text-sm mt-2">
+          Facilitated daily stand-ups, supported Sprint planning, and helped remove blockers to improve team delivery efficiency.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold">Business Analyst</h4>
+        <p class="text-gray-500 text-sm">Danang University Software Center | 2023</p>
+        <p class="text-gray-400 text-sm mt-2">
+          Acted as a bridge between technical teams and stakeholders, ensuring clear communication and requirement alignment.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <h3 class="text-3xl font-bold text-white mb-12">Education</h3>
+
+    <div class="gradient-bg p-6 rounded-xl neon-border">
+      <h4 class="text-white font-semibold">Bachelor of Information Technology</h4>
+      <p class="text-gray-500 text-sm">University of Science and Technology - Da Nang</p>
+      <p class="text-gray-400 text-sm mt-2">Major: Software Engineering | GPA: 7.8+</p>
+    </div>
+
+  </section>
+
+  <footer class="border-t border-gray-800 mt-20 py-10 text-center">
+    <p class="text-xs text-gray-600">© 2026 Nhi Nguyen</p>
   </footer>
 
 </body>
