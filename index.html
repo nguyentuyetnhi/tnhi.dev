@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nhi Nguyen | Junior Scrum Master</title>
+  <title>Nhi Nguyen | Scrum Master</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -12,86 +12,87 @@
     .neon-border { border: 1px solid rgba(0, 229, 191, 0.2); transition: all 0.3s ease; }
     .neon-border:hover { border-color: #00E5BF; box-shadow: 0 0 25px rgba(0, 229, 191, 0.2); }
     .gradient-bg { background: linear-gradient(135deg, #161b22 0%, #0d1117 100%); }
-    .progress-bar { height: 6px; background: #21262d; border-radius: 3px; overflow: hidden; }
-    .progress-fill { height: 100%; background: linear-gradient(90deg, #00d2ff 0%, #00E5BF 100%); }
   </style>
 </head>
 
 <body class="text-gray-300 antialiased">
 
+  <!-- NAV -->
   <nav class="sticky top-0 z-50 bg-[#0b0f14]/80 backdrop-blur-md border-b border-gray-800 p-5">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-xl font-bold tracking-tighter text-white">tnhi<span class="neon-text">.dev</span></h1>
-      <div class="space-x-8 text-sm font-medium hidden md:flex">
-        <a href="#about" class="hover:text-white transition">About</a>
-        <a href="#skills" class="hover:text-white transition">Skills</a>
-        <a href="#projects" class="hover:text-white transition">Projects</a>
-        <a href="#experience" class="hover:text-white transition">Experience</a>
+      <h1 class="text-xl font-bold text-white">tnhi<span class="neon-text">.dev</span></h1>
+      <div class="space-x-6 text-sm hidden md:flex">
+        <a href="#about" class="hover:text-white">About</a>
+        <a href="#skills" class="hover:text-white">Skills</a>
+        <a href="#projects" class="hover:text-white">Projects</a>
+        <a href="#experience" class="hover:text-white">Experience</a>
       </div>
     </div>
   </nav>
 
-  <section id="about" class="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-16 items-center">
+  <!-- HERO -->
+  <section class="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-12 items-center">
     <div>
-      <h2 class="text-5xl font-extrabold text-white mb-6 leading-tight tracking-tight">
-        Empowering Teams.<br>Delivering <span class="neon-text">Value.</span>
+      <h2 class="text-5xl font-extrabold text-white mb-6">
+        Empowering Teams.<br>
+        Delivering <span class="neon-text">Value.</span>
       </h2>
-      <p class="text-lg text-gray-400 mb-8 leading-relaxed">
-        Hi, I'm <span class="text-white font-semibold">Nhi Nguyen</span>, a Fullstack Developer transitioning into a <span class="text-white font-semibold">Junior Scrum Master</span>. With a strong technical foundation and hands-on Agile experience, I support teams in delivering real value through effective collaboration, continuous improvement, and well-structured Sprint execution.
+      <p class="text-lg text-gray-400 mb-6">
+        Aspiring <span class="text-white font-semibold">Scrum Master</span> with a strong technical background, passionate about facilitating Agile teams, improving collaboration, and delivering consistent value through effective Scrum practices.
       </p>
-      <div class="flex gap-4">
-        <a href="#skills" class="border border-[#00E5BF] text-[#00E5BF] px-6 py-3 rounded-lg font-semibold hover:bg-[#00E5BF]/10 transition">View Skills</a>
-        <a href="mailto:tnhi.dev@gmail.com" class="bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition">Contact Me</a>
-      </div>
+      <p class="text-gray-500 mb-6">
+        I focus on enabling teams to self-organize, removing impediments, and fostering continuous improvement through retrospectives and feedback loops.
+      </p>
+      <a href="mailto:tnhi.dev@gmail.com" class="bg-[#00E5BF] text-black px-6 py-3 rounded font-semibold">Contact Me</a>
     </div>
 
-    <div class="gradient-bg p-8 rounded-2xl neon-border">
-      <div class="mb-6">
-        <h1 class="text-2xl font-bold text-white">Nhi Tuyet Nguyen</h1>
-        <p class="text-gray-400 text-sm">Da Nang, Vietnam</p>
-        <p class="text-[#00E5BF] text-sm mt-1">tnhi.dev@gmail.com</p>
-      </div>
+    <div class="gradient-bg p-6 rounded-xl neon-border">
+      <h3 class="text-white text-xl font-semibold mb-3">Nhi Tuyet Nguyen</h3>
+      <p class="text-gray-400 text-sm">Da Nang, Vietnam</p>
+      <p class="text-[#00E5BF] text-sm">tnhi.dev@gmail.com</p>
 
-      <div class="grid grid-cols-2 gap-4">
-        <div class="bg-gray-800 p-5 rounded-xl text-center">
-          <div class="text-2xl font-bold text-white">1+</div>
-          <div class="text-xs text-gray-500 uppercase mt-1">Years Experience</div>
+      <div class="grid grid-cols-2 gap-4 mt-6">
+        <div class="bg-gray-800 p-4 rounded text-center">
+          <div class="text-white text-xl font-bold">~2</div>
+          <div class="text-xs text-gray-500">Years Experience</div>
         </div>
-        <div class="bg-gray-800 p-5 rounded-xl text-center">
-          <div class="text-2xl font-bold text-white">Agile</div>
-          <div class="text-xs text-gray-500 uppercase mt-1">Focused Mindset</div>
+        <div class="bg-gray-800 p-4 rounded text-center">
+          <div class="text-white text-xl font-bold">Agile</div>
+          <div class="text-xs text-gray-500">Mindset</div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- SKILLS -->
   <section id="skills" class="max-w-6xl mx-auto px-6 py-20">
-    <h3 class="text-3xl font-bold text-white mb-12">Core Skills</h3>
-    <div class="grid md:grid-cols-3 gap-8">
+    <h3 class="text-3xl font-bold text-white mb-10">Core Skills</h3>
+
+    <div class="grid md:grid-cols-3 gap-6">
 
       <div class="gradient-bg p-6 rounded-xl neon-border">
-        <h4 class="text-[#00E5BF] font-semibold mb-4">Agile & Scrum</h4>
-        <ul class="text-sm text-gray-400 space-y-2">
+        <h4 class="text-[#00E5BF] font-semibold mb-3">Agile & Scrum</h4>
+        <ul class="text-sm space-y-2">
           <li>• Scrum Ceremonies Facilitation</li>
           <li>• Sprint Planning & Retrospectives</li>
           <li>• Backlog Refinement</li>
+          <li>• Stakeholder Communication</li>
           <li>• Removing Impediments</li>
         </ul>
       </div>
 
       <div class="gradient-bg p-6 rounded-xl neon-border">
-        <h4 class="text-[#00E5BF] font-semibold mb-4">Tools</h4>
-        <ul class="text-sm text-gray-400 space-y-2">
+        <h4 class="text-[#00E5BF] font-semibold mb-3">Tools</h4>
+        <ul class="text-sm space-y-2">
           <li>• Jira / Trello</li>
-          <li>• GitHub</li>
           <li>• Confluence</li>
+          <li>• GitHub</li>
         </ul>
       </div>
 
       <div class="gradient-bg p-6 rounded-xl neon-border">
-        <h4 class="text-[#00E5BF] font-semibold mb-4">Technical Background</h4>
-        <ul class="text-sm text-gray-400 space-y-2">
-          <li>• JavaScript / TypeScript</li>
+        <h4 class="text-[#00E5BF] font-semibold mb-3">Technical Background</h4>
+        <ul class="text-sm space-y-2">
           <li>• React / Node.js</li>
           <li>• REST APIs</li>
         </ul>
@@ -100,65 +101,86 @@
     </div>
   </section>
 
-  <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
-    <h3 class="text-3xl font-bold text-white mb-12">Projects</h3>
+  <!-- SCRUM IMPACT -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-white mb-6">Scrum Impact</h3>
+    <ul class="text-gray-400 space-y-2">
+      <li>• Facilitated 20+ Scrum ceremonies (Daily, Planning, Retrospective)</li>
+      <li>• Improved team communication and alignment</li>
+      <li>• Helped reduce blockers and increase delivery consistency</li>
+    </ul>
+  </section>
 
-    <div class="space-y-8">
+  <!-- PROJECTS -->
+  <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
+    <h3 class="text-3xl font-bold text-white mb-10">Projects</h3>
+
+    <div class="grid md:grid-cols-2 gap-6">
 
       <div class="gradient-bg p-6 rounded-xl neon-border">
-        <h4 class="text-lg font-semibold text-white">AI Task Management Application</h4>
-        <p class="text-gray-400 text-sm mt-2">
-          Facilitated Agile processes for a team building an AI-powered task management system. Supported Sprint planning, daily stand-ups, and continuous improvement practices to enhance team productivity.
-        </p>
+        <h4 class="text-white font-semibold">AI Task Management App</h4>
+        <ul class="text-sm text-gray-400 mt-3 space-y-1">
+          <li>• Facilitated Scrum ceremonies</li>
+          <li>• Coordinated Sprint execution</li>
+          <li>• Removed blockers</li>
+          <li>• Promoted Agile practices</li>
+        </ul>
       </div>
 
       <div class="gradient-bg p-6 rounded-xl neon-border">
-        <h4 class="text-lg font-semibold text-white">Kindergarten Management System</h4>
-        <p class="text-gray-400 text-sm mt-2">
-          Contributed as a Fullstack Developer to build a scalable system supporting over 1000 users, including real-time monitoring features.
-        </p>
+        <h4 class="text-white font-semibold">Kindergarten Management System</h4>
+        <ul class="text-sm text-gray-400 mt-3 space-y-1">
+          <li>• Collaborated with cross-functional teams</li>
+          <li>• Supported Agile workflow using Jira</li>
+          <li>• Improved stakeholder communication</li>
+        </ul>
       </div>
 
     </div>
   </section>
 
+  <!-- EXPERIENCE -->
   <section id="experience" class="max-w-6xl mx-auto px-6 py-20">
-    <h3 class="text-3xl font-bold text-white mb-12">Experience</h3>
+    <h3 class="text-3xl font-bold text-white mb-10">Experience</h3>
 
     <div class="space-y-6">
 
       <div>
         <h4 class="text-white font-semibold">Fullstack Developer (Agile Team Support)</h4>
         <p class="text-gray-500 text-sm">FPT Software | 2024 - Present</p>
-        <p class="text-gray-400 text-sm mt-2">
-          Facilitated daily stand-ups, supported Sprint planning, and helped remove blockers to improve team delivery efficiency.
-        </p>
+        <ul class="text-sm text-gray-400 mt-2 space-y-1">
+          <li>• Facilitated Daily Stand-ups and Sprint Planning</li>
+          <li>• Collaborated with Product Owner</li>
+          <li>• Removed blockers</li>
+          <li>• Supported Retrospectives</li>
+        </ul>
       </div>
 
       <div>
         <h4 class="text-white font-semibold">Business Analyst</h4>
         <p class="text-gray-500 text-sm">Danang University Software Center | 2023</p>
         <p class="text-gray-400 text-sm mt-2">
-          Acted as a bridge between technical teams and stakeholders, ensuring clear communication and requirement alignment.
+          Bridged communication between stakeholders and technical teams.
         </p>
       </div>
 
     </div>
   </section>
 
+  <!-- EDUCATION -->
   <section class="max-w-6xl mx-auto px-6 py-20">
-    <h3 class="text-3xl font-bold text-white mb-12">Education</h3>
+    <h3 class="text-3xl font-bold text-white mb-6">Education</h3>
 
     <div class="gradient-bg p-6 rounded-xl neon-border">
       <h4 class="text-white font-semibold">Bachelor of Information Technology</h4>
       <p class="text-gray-500 text-sm">University of Science and Technology - Da Nang</p>
-      <p class="text-gray-400 text-sm mt-2">Major: Software Engineering | GPA: 7.8+</p>
+      <p class="text-gray-400 text-sm mt-2">Software Engineering | GPA: 7.8+</p>
     </div>
-
   </section>
 
-  <footer class="border-t border-gray-800 mt-20 py-10 text-center">
-    <p class="text-xs text-gray-600">© 2026 Nhi Nguyen</p>
+  <!-- FOOTER -->
+  <footer class="text-center py-10 text-gray-600 text-sm">
+    © 2026 Nhi Nguyen
   </footer>
 
 </body>
